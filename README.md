@@ -2,9 +2,9 @@
 
 ###
 
-<div align="center" id="github-stats">
-  <img src="" id="stats-image" height="150" alt="stats graph" />
-  <img src="" id="languages-image" height="150" alt="languages graph" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RazvanAndreiCristea&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=RazvanAndreiCristea&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
 ###
@@ -46,22 +46,3 @@
   as in the embedded systems field where I used Arduino boards to see the differences between the software and the hardware side.</p>
 
 ###
-
-<script>
-  async function updateGitHubStats() {
-    const response = await fetch('https://github-readme-stats.vercel.app/api?username=RazvanAndreiCristea&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false');
-    const data = await response.json();
-
-    const statsImage = document.getElementById('stats-image');
-    statsImage.src = data.svg;
-
-    const languagesResponse = await fetch('https://github-readme-stats.vercel.app/api/top-langs?username=RazvanAndreiCristea&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false');
-    const languagesData = await languagesResponse.json();
-
-    const languagesImage = document.getElementById('languages-image');
-    languagesImage.src = languagesData.svg;
-  }
-
-  updateGitHubStats();
-  setInterval(updateGitHubStats, 30000); // Actualizare la fiecare 60 de secunde (poți ajusta acest interval)
-</script>
