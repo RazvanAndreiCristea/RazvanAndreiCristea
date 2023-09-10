@@ -1,4 +1,4 @@
-<h2 align="center">Hi 👋! My name is Răzvan and I'm from Romania.<br>- 👀 I’m interested in science<br>- 🌱 I’m currently learning computer science</h2>
+<h2 align="center">Hi 👋! My name is Răzvan and I'm from Romania.<br> 👀 I’m interested in science<br> 🌱 I’m currently learning computer science</h2>
 
 ###
 
