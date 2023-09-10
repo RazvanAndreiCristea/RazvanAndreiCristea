@@ -40,7 +40,7 @@
 
 ###
 
-<p align="left">I am passionate about mathematics, physics, general culture but first of all programming. 
+<p align="left">I am passionate about mathematics, physics, general knowledge but first of all programming. 
   I am a quick learner, sociable, ambitious and dedicated to what I do. 
   I like to write code especially in languages like C/C++ and Java, but I am also interested in the database side as well
   as in the embedded systems field where I used Arduino boards to see the differences between the software and the hardware side.</p>
